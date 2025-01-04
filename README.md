@@ -1,6 +1,7 @@
 # Laravel Livewire Project
 
 ![Laravel Logo](https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg)
+![Livewire Logo](https://raw.githubusercontent.com/livewire/livewire/master/resources/images/logo.svg)
 
 
 This is a Laravel Livewire project that demonstrates basic functionality for user authentication and CRUD operations. Livewire allows for dynamic, reactive interfaces without writing JavaScript.
