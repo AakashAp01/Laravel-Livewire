@@ -3,11 +3,10 @@
 namespace App\Livewire;
 
 use Livewire\Component;
-use Illuminate\Support\Facades\Validator;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 
-class LoginSignin extends Component
+class Login extends Component
 {
     
     public $isLogin = false;
@@ -59,10 +58,8 @@ class LoginSignin extends Component
         session()->flash('error', 'The provided credentials do not match our records.');
     }
     
-    
-
     public function render()
     {
-        return view('livewire.login-sigin');
+        return view('livewire.login');
     }
 }
