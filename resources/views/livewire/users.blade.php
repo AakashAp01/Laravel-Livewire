@@ -48,7 +48,7 @@
             </table>
 
             <div class="mt-4">
-                {{ $users->links() }}
+                {{ $users->links(data: ['scrollTo' => false]) }}
             </div>
         </div>
 

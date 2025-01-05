@@ -9,7 +9,7 @@ use Livewire\WithPagination;
  
 class Users extends Component
 {
- 
+    public $title = 'Users';
     public $viewuser = false;
     public $seeuser;
     use WithPagination;
@@ -35,7 +35,7 @@ class Users extends Component
             $query->where('name', 'like', '%' . $this->search . '%')
                 ->orWhere('email', 'like', '%' . $this->search . '%');
         }
-        $users = $query->paginate(5);
+        $users = $query->paginate(10);
 
         return view('livewire.users',compact('authUser','users'));
     }

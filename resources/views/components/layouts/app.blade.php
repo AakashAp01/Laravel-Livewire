@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>{{ $title ?? 'Page Title' }}</title>
+    <title>{{ $title ?? 'Title' }}</title>
 </head>
 
 <body class="h-sceen" >
@@ -79,9 +79,10 @@
         </div>
     </nav>
     @endif
+
     {{ $slot }}
     @if(Auth::check())
-    @include('components.footer')
+        @include('components.footer')
     @endif
 </body>
 
