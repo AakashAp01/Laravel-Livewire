@@ -65,6 +65,7 @@
             <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 focus:outline-none">Log In</button>
         </div>
     </form>
+    
     <hr class="my-2">
     <p class="text-center">Log in with</p>
     <div class="space-y-3 mt-4">
