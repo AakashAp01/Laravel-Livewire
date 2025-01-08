@@ -46,6 +46,7 @@
         </tbody>
     </table>
     
+    
 
     <!-- Totals Section -->
     <div class="mt-6 bg-white p-4 rounded-lg shadow-md">
